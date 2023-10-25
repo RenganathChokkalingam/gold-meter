@@ -225,7 +225,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         platinumCard.setOnClickListener {
-            Toast.makeText(this, "Platinum Price History is Unavailable at the moment", Toast.LENGTH_LONG).show()
+            Snackbar.make(findViewById(R.id.tex), "Platinum Price History is Unavailable at the moment", Snackbar.LENGTH_LONG).show()
 
             //mp.start()
             //intent.putExtra("commodity", "platinum")
@@ -233,7 +233,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         copperCard.setOnClickListener {
-            Toast.makeText(this, "Copper Price History is Unavailable at the moment", Toast.LENGTH_LONG).show()
+            Snackbar.make(findViewById(R.id.tex), "Copper Price History is Unavailable at the moment", Snackbar.LENGTH_LONG).show()
 
             //mp.start()
             //intent.putExtra("commodity", "petrol")
@@ -241,7 +241,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         petrolCard.setOnClickListener {
-            Toast.makeText(this, "Fuel Price History is Unavailable at the moment", Toast.LENGTH_LONG).show()
+            Snackbar.make(findViewById(R.id.tex), "Fuel Price History is Unavailable at the moment", Snackbar.LENGTH_LONG).show()
 
             //mp.start()
             //intent.putExtra("commodity", "petrol")
@@ -249,7 +249,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         dieselCard.setOnClickListener {
-            Toast.makeText(this, "Fuel Price History is Unavailable at the moment", Toast.LENGTH_LONG).show()
+            Snackbar.make(findViewById(R.id.tex), "Fuel Price History is Unavailable at the moment", Snackbar.LENGTH_LONG).show()
 
             //mp.start()
             //intent.putExtra("commodity", "diesel")
