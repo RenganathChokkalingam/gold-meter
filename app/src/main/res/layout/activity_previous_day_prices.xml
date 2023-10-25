@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviousDayPricesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/gold22Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="19dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="7dp"
+            app:cardMaxElevation="20dp"
+            tools:layout_editor_absoluteY="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jewellery" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7ACACAC">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/d1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/d10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sample Data :"
+                        android:textSize="33dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="#FFEB3B"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/p10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/P10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price......."
+                        android:textSize="30dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FD574B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#f44336">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="Chennai Meter"
+                android:layout_marginTop="-4dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="[By Renganath]"
+                android:layout_marginTop="-3.5dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#FFEB3B"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="4.8dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_height="2dp"
+                android:background="#DCDCDC"/>
+
+            <TextView
+                android:id="@+id/commodityTitle"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:gravity="center"
+                android:text="22 Carat Gold Rate for Last 10 Days"
+                android:textColor="#FFFFFF"
+                android:textSize="33dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
